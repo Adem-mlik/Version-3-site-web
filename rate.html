@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقيم الموقع</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+    <h1 align="center">تقيم الموقع</h1>
+</header>
+    <ul align="right">
+        <li><a href="index.html">الصفحة الرئسي</a></li>
+        <li><a href="system.html">بنية المجموعة الشمسية</a></li>
+        <li><a href="plant.html">كوكب</a></li>
+        <li><a href="rate.html">تقيم الموقع</a></li>
+    </ul>
+    <form>
+        <fieldset >
+            <legend align="right">التقيم</legend>
+            <table align="right">
+                <tr>
+                    <td align="right"><input type="text" name="nom" id="nom"></td>
+                    <td colspan="2" align="right"><label for="nom">  الأسم  </label></td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="text" name="pre" id="pre"></td>
+                    <td colspan="2" align="right"><label for="pre">  اللقب  </label></td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="date" name="date" id="date"></td>
+                    <td colspan="2" align="right"><label for="nom">تاريخ الولادة</label></td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="radio" name="s" id="F" value="F"> <label for="F">أنثى</label><input type="radio" name="s" id="M" value="M"> <label for="M">ذكر</label></td>
+                    <td colspan="2" align="right"><label>الجنس</label></td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="email" name="mail" id="mail"></td>
+                    <td colspan="2" align="right"><label for="mail">البريد الألكتروني</label></td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <select name="gov" id="gov">
+                            <option>تونس</option>
+                            <option>باجة</option>
+                            <option>بنزرت</option>
+                            <option>بن عروس</option>
+                            <option>تطاوين</option>
+                            <option>توزر</option>
+                            <option>أريانة</option>
+                            <option>جندوبة</option>
+                            <option>زغوان</option>
+                            <option>سليانة</option>
+                            <option>سوسة</option>
+                            <option>سيدي بوزيد</option>
+                            <option>صفاقس</option>
+                            <option>قابس</option>
+                            <option>قبلي</option>
+                            <option>القصرين</option>
+                            <option>قفصة</option>
+                            <option>القيروان</option>
+                            <option>الكاف</option>
+                            <option>مدنين</option>
+                            <option>المنستير</option>
+                            <option>منوبة</option>
+                            <option>المهدية</option>
+                            <option>نابل</option>
+                        </select>
+                    </td>
+                    <td colspan="2" align="right"><label for="gov">الولاية</label></td>
+                </tr>
+                <tr>
+                    <td align="right"><textarea name="avi" id="avi"></textarea></td>
+                    <td colspan="2" align="right"><label for="avi">الملاحظات</label></td>
+                </tr>
+                <tr>
+                    <td align="right"><input type="range" name="note" id="note" value="0" min="0" max="5" step="1"></td>
+                    <td colspan="2" align="right"><label for="note">التقيم</label></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
